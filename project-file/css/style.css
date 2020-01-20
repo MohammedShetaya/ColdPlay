@@ -1,8 +1,6 @@
 body{
 	font-size: 17px ; 
-	background-color: black ;
-	background: url('../images/layer.png')  ;
-
+	background: url('../images/layer.png') no-repeat black ;
 	color: #fff ;
 	font-family: 'Oxygen', sans-serif;
 }
@@ -22,13 +20,10 @@ body{
 .navbar-brand {
 	padding-top: 25px;
 }
-.pull-left {
-	float: left;
-}
-.navbar-brand h1 { /* Restaurant name */
-  font-family: 'Lora', serif;
+.navbar-brand h1 { /* cold play */
+  font-family: 'Monoton', cursive;
   color: #AD3A60;
-  font-size: 1.9em;
+  font-size: 2em;
   text-transform: uppercase;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
@@ -39,8 +34,8 @@ body{
 .navbar-brand a:hover , .navbar-brand a:hover {
 	text-decoration: none;
 }
-.noth {
-	font-family:  'Oxygen', sans-serif;
+.noth { /*look how the shine */
+	margin-top: 3px ;
 	font-weight: 500;
 	text-shadow: 1px 1px 1px #222 ;
 }
