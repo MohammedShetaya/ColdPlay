@@ -1,12 +1,13 @@
 body{
 	font-size: 17px ; 
-	background: url('../images/layer.png') no-repeat black ;
+	background-color: black ;
+	/*background: url('../images/layer.png') no-repeat black ;*/
 	color: #fff ;
 	font-family: 'Oxygen', sans-serif;
 }
 
 #header-nav {
-  background-color: #F8E434;
+  background-color: #DBD2BB;
   border-radius: 0;
   border: 0;
 }
@@ -38,4 +39,28 @@ body{
 	margin-top: 3px ;
 	font-weight: 500;
 	text-shadow: 1px 1px 1px #222 ;
+}
+
+#nav-list {
+	margin-top: 12px ;
+}
+#nav-list  a{
+	text-align: center; 
+	font-size: 18px ;
+	color:#AD3A60;   
+}
+#nav-list span {
+	font-size: 28px ; 
+}
+#nav-list li {
+margin: 5px ; 	
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
 }
