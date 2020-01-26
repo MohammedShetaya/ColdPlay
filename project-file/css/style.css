@@ -3,7 +3,7 @@ body{
 	background-color: black ;
 	/*background: url('../images/layer.png') no-repeat black ;*/
 	color: #fff ;
-	font-family: 'Oxygen', sans-serif;
+    font-family: 'Abel', sans-serif;
 }
 
 #header-nav {
@@ -49,6 +49,10 @@ body{
 	font-size: 18px ;
 	color:#AD3A60;   
 }
+#collapsable-nav a{
+	font-size: 1.3em ; 
+}
+
 #nav-list span {
 	font-size: 28px ; 
 }
