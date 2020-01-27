@@ -153,11 +153,23 @@ margin: 5px ;
 
 @media (max-width: 767px)and (min-width: 450px) {
 	#home-tiles{
-		width: 67%;
+		width: 450px;
 	}
 }
-@media (max-width: 449px) {
+@media (max-width: 449px) and (min-width: 380px) {
 	#home-tiles{
 		width: 400px ;
 	}
+}
+ @media (max-width: 379px){
+ 	#home-tiles {
+ 		width: 300px ; 
+ 	}
+
+ 	#albums-tile ,  #awards-tile , #concerts-tile {
+ 		height: 200px ; 
+ 	}
+ 	.navbar-brand {
+ 		font-size: 0.7em ;
+ 	}
 }
