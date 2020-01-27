@@ -74,11 +74,29 @@ margin: 5px ;
   top: -25px ;  
 }
 
+.container .jumbotron {
+	margin-top: 20px ;
+	padding: 0px ;
+	box-shadow: 0 5px 35px white ;
+}
+
 @media (min-width: 1200px) {
   .container .jumbotron{
   	background: url('../images/e_1200.png') no-repeat;
-  	height: 600px ;
+  	height: 794px ;
    }
 }
 
+@media (min-width: 992px) and (max-width: 1199px){
+	.container .jumbotron {
+		background: url('../images/e992.png') no-repeat;
+		height: 656px ;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.container .jumbotron {
+		background: url('../images/e_768.png') no-repeat;
+		height: 508px ;
+	}
+} 
 
