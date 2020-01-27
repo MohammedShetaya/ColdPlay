@@ -74,4 +74,11 @@ margin: 5px ;
   top: -25px ;  
 }
 
+@media (min-width: 1200px) {
+  .container .jumbotron{
+  	background: url('../images/e_1200.png') no-repeat;
+  	height: 600px ;
+   }
+}
+
 
