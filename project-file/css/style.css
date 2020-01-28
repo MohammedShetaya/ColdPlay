@@ -7,7 +7,7 @@ body{
 }
 
 #header-nav {
-  background-color: #DBD2BB;
+  background-color: #efd66d;
   border-radius: 0;
   border: 0;
 }
@@ -48,6 +48,7 @@ body{
 	text-align: center; 
 	font-size: 18px ;
 	color:#AD3A60;   
+	text-shadow:  1px 1px 1px #222 ;
 }
 #collapsable-nav a{
 	font-size: 1.3em ; 
@@ -185,6 +186,12 @@ margin: 5px ;
 	}
 	#concerts-tile {
 		width: 60% ;
+	}
+
+	.photo-back {
+		background: url('../images/back2.png') no-repeat ;
+		background-position: center;
+		height: 133px ; 
 	}
 } 
 
