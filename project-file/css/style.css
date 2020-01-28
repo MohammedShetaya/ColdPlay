@@ -148,7 +148,8 @@ margin: 5px ;
 
 .social {
 	margin-left: 50px ;
-	bottom: 50px ;
+	position: relative;
+	bottom: 30px;
 }
 
 .social-title {
@@ -174,16 +175,23 @@ margin: 5px ;
 }
 .rights div {
 	line-height: 0.95;
-	font-size: 13px ; 
+	font-size: 13px ;
+	opacity: 0.8; 
 }
 
-
+.ff {
+	margin-bottom: 10px ;
+}
 
 
 @media (min-width: 1200px) {
   .container .jumbotron{
   	background: url('../images/e_1200.png') no-repeat;
   	height: 794px ;
+   }
+
+   .social{
+   	top: 60px ;
    }
 
 }
@@ -197,6 +205,11 @@ margin: 5px ;
 	.waraper {
 		text-align: center;
 	}
+
+
+   .social{
+   	top: 50px ;
+   }
 
 }
 @media (min-width: 768px) and (max-width: 991px) {
