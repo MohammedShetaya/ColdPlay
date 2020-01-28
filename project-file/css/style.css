@@ -1,6 +1,6 @@
 body{
 	font-size: 17px ; 
-	background-color: black ;
+	background-color: #131324 ;
 	/*background: url('../images/layer.png') no-repeat black ;*/
 	color: #fff ;
     font-family: 'Abel', sans-serif;
@@ -138,20 +138,24 @@ margin: 5px ;
 	color: #EADC5E;
 }
 
-.wraper {
-	position:relative; 
+.photo-back{
+	width: 300px ;
 }
+
+.wraper {
+	float: left; 
+}
+
 .social {
 	margin-left: 50px ;
-	position: absolute;
-	top: 80px ;
-
+	bottom: 50px ;
 }
 
 .social-title {
 	color: #EADC5E;
 	font-size: 20px ;
 	margin-bottom: 10px;
+	clear: left;
 }
 
 
@@ -162,6 +166,17 @@ margin: 5px ;
 	border-radius: 7px ;
 	margin: 8px ; 
 }
+
+.rights {
+	margin-top: 15px ;
+	clear: both;
+	text-align: center;
+}
+.rights div {
+	line-height: 0.95;
+	font-size: 13px ; 
+}
+
 
 
 
@@ -178,6 +193,11 @@ margin: 5px ;
 		background: url('../images/e992.png') no-repeat;
 		height: 656px ;
 	}
+
+	.waraper {
+		text-align: center;
+	}
+
 }
 @media (min-width: 768px) and (max-width: 991px) {
 	.container .jumbotron {
@@ -192,6 +212,13 @@ margin: 5px ;
 		background: url('../images/back2.png') no-repeat ;
 		background-position: center;
 		height: 133px ; 
+		width: 200px ;
+		margin-top: 30px ;
+	}
+
+	
+	.quote , .photo-back , .social {
+		text-align: center; 
 	}
 } 
 
@@ -199,10 +226,30 @@ margin: 5px ;
 	#home-tiles{
 		width: 450px;
 	}
+
+	.panel-footer {
+		text-align: center;
+	}
+
+	.wraper {
+		margin-bottom: 10px ;
+	}
+
+	.rights div {
+		font-size: 0.7em ;
+		opacity: 0.9;
+	}
+
+	.face-tile , .twitter-tile , .insta-tile , .youtube-tile {
+		margin-bottom: 15px ;
+	}	
 }
 @media (max-width: 449px) and (min-width: 380px) {
 	#home-tiles{
 		width: 400px ;
+	}
+	.panel-footer {
+		text-align: center;
 	}
 }
  @media (max-width: 379px){
@@ -216,4 +263,12 @@ margin: 5px ;
  	.navbar-brand {
  		font-size: 0.85em ;
  	}
+
+ 	.panel-footer {
+		text-align: center;
+	}
+	.rights div {
+		font-size: 0.7em ;
+		opacity: 0.9;
+	}
 }
