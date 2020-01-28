@@ -96,7 +96,7 @@ margin: 5px ;
 }
 
 #albums-tile:hover, #awards-tile:hover, #concerts-tile:hover {
-	box-shadow: 0 1px 5px 1px white ;
+	box-shadow: 0 1px 15px 2px white ;
 }
 
 #albums-tile {
@@ -125,6 +125,43 @@ margin: 5px ;
 	font-size: 1.6em ;
 	color: #fff 
 }
+
+.panel-footer {
+	background-color: #61122f ;
+	margin-top: 15px ;
+	border-top: 0 ;
+	opacity: .9 ;
+}
+.h-title{
+	font-size: 28px;
+	color: #EADC5E;
+}
+
+.wraper {
+	position:relative; 
+}
+.social {
+	margin-left: 50px ;
+	position: absolute;
+	top: 80px ;
+
+}
+
+.social-title {
+	color: #EADC5E;
+	font-size: 20px ;
+	margin-bottom: 10px;
+}
+
+
+
+.face-tile , .twitter-tile , .insta-tile , .youtube-tile {
+    background-color: white; 
+	padding: 0 ;
+	border-radius: 7px ;
+	margin: 8px ; 
+}
+
 
 
 @media (min-width: 1200px) {
@@ -170,6 +207,6 @@ margin: 5px ;
  		height: 200px ; 
  	}
  	.navbar-brand {
- 		font-size: 0.7em ;
+ 		font-size: 0.85em ;
  	}
 }
