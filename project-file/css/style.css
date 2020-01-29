@@ -168,7 +168,12 @@ margin: 5px ;
     background-color: white; 
 	padding: 0 ;
 	border-radius: 7px ;
-	margin: 8px ; 
+	margin: 8px ;
+	 
+}
+
+.face-tile:hover , .twitter-tile:hover , .insta-tile:hover , .youtube-tile:hover {
+	box-shadow: 0 1px 3px 2px white ;
 }
 
 .rights {
@@ -248,10 +253,15 @@ margin: 5px ;
 		text-align: center;
 	}
 
+	#fasel {
+		margin-bottom : 0;
+	}
+
 	.rights div {
 		font-size: 0.7em ;
 		opacity: 0.9;
 	}
+
 
 }
 @media (max-width: 449px) and (min-width: 380px) {
